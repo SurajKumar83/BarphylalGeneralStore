@@ -222,31 +222,33 @@ center h3 {
 }
 
 #feature .fe-box .delivery {
+    width: 100%;
     height: 12.3vh;
 }
 
 #feature .fe-box .order {
-    width: 12vh;
+    width: 100%;
     height: 12.3vh;
 }
 
 #feature .fe-box .money {
     border-radius: 50%;
-    width: 11.3vh;
+    width: 100%;
     height: 12.3vh;
 }
 
 #feature .fe-box .promotion {
-    width: 12vh;
+    width: 100%;
     height: 12.3vh;
 }
 
 #feature .fe-box .shell {
-    width: 12vh;
+    width: 100%;
     height: 12.3vh;
 }
 
 #feature .fe-box .support {
+    width: 100%;
     height: 12.3vh;
 }
 
@@ -418,8 +420,9 @@ footer .follow i {
     transition: all 0.5s ease-in-out;
 }
 
-.install .svg {
-    height: 3vh;
+footer .install .svg {
+    height: 6.5vh;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -588,12 +591,6 @@ Start our media query
         width: 20vh;
         height: 7.5vh;
         margin: 2%;
-
-    }
-
-    .install .svg {
-        height: 6.5vh;
-        width: 37vh;
     }
 
     footer .col .logo {
@@ -744,11 +741,6 @@ Start our media query
         width: 20vh;
         height: 7.5vh;
         margin: 2%;
-    }
-
-    .install .svg {
-        height: 6.5vh;
-        width: 37vh;
     }
 
     footer .col .logo {
