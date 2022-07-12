@@ -311,7 +311,6 @@ body {
     margin-bottom: 10px;
 }
 
-
 #feature .fe-box .delivery {
     width: 100%;
     height: 12.3vh;
@@ -463,7 +462,7 @@ body {
     background-image: url('woohoo.gif');
     background-repeat: no-repeat;
     background-position: top 25% right 50%;
-    height: 40vh;
+    height: 25vh;
     width: 100%;
 }
 
@@ -610,6 +609,7 @@ footer .install .svg {
     cursor: pointer;
 }
 
+
 footer .copyright {
     width: 100%;
     text-align: center;
@@ -755,6 +755,7 @@ Start our media query
 
     }
 
+
     footer .col .logo {
         width: 5.5em;
         height: 5.5em;
@@ -888,6 +889,9 @@ Start our media query
         margin: 2%;
 
     }
+
+   
+
     footer .col .logo {
         margin: 20px auto;
     }
