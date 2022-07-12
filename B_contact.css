@@ -390,8 +390,9 @@ footer .follow i {
     transition: all 0.5s ease-in-out;
 }
 
-.install .svg {
-    height: 3vh;
+footer .install .svg {
+    height: 6.5vh;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -553,10 +554,7 @@ Start our media query
 
     }
 
-    .install .svg {
-        height: 6.5vh;
-        width: 37vh;
-    }
+   
 
     footer .col .logo {
         width: 5.5em;
@@ -703,11 +701,6 @@ Start our media query
         width: 20vh;
         height: 7.5vh;
         margin: 2%;
-    }
-
-    .install .svg {
-        height: 6.5vh;
-        width: 37vh;
     }
 
     footer .col .logo {
