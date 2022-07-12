@@ -602,7 +602,8 @@ footer .install .row img {
 }
 
 footer .install .svg {
-    height: 3vh;
+    height: 6.5vh;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -751,11 +752,6 @@ Start our media query
 
     }
 
-    footer .install .svg {
-        height: 6.5vh;
-        width: 37vh;
-    }
-
     footer .col .logo {
         width: 5.5em;
         height: 5.5em;
@@ -889,12 +885,6 @@ Start our media query
         margin: 2%;
 
     }
-
-    footer .install .svg {
-        height: 6.5vh;
-        width: 37vh;
-    }
-
     footer .col .logo {
         margin: 20px auto;
     }
