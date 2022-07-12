@@ -489,8 +489,6 @@ Start our media query
     .mobile {
         display: flex;
         align-items: center;
-
-
     }
 
     .mobile i {
@@ -536,24 +534,17 @@ Start our media query
     }
     /* post end */
     #post .post-box h1 {
-        
         top: -21%;
-        
     }
 
-
     #newsletter {
-
         justify-content: center;
-
         align-items: center;
-
 
     }
 
     #newsletter .form {
         width: 70%;
-
     }
 
     #newsletter input {
@@ -574,12 +565,6 @@ Start our media query
         width: 20vh;
         height: 7.5vh;
         margin: 2%;
-
-    }
-
-    .install .svg {
-        height: 6.5vh;
-        width: 37vh;
     }
 
     footer .col .logo {
@@ -718,16 +703,8 @@ Start our media query
     .install .row img {
         width: 20vh;
         height: 7.5vh;
-
         margin: 2%;
-
     }
-
-    .install .svg {
-        height: 6.5vh;
-        width: 37vh;
-    }
-
     footer .col .logo {
         margin: 20px auto;
     }
