@@ -293,8 +293,9 @@ footer .follow i {
     transition: all 0.5s ease-in-out;
 }
 
-.install .svg {
-    height: 3vh;
+footer .install .svg {
+    height: 6.5vh;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -311,11 +312,6 @@ footer .copyright {
 /*
 Start our media query
 */
-
-@media (min-width:800px) and (max-width:1023px) {
-
-   
-}
 
 @media (max-width: 799px) {
 
@@ -400,13 +396,8 @@ Start our media query
         display: none;
     }
 
-   
-   
-    
-    
     /* news letter end */
     footer .col {
-
         align-items: flex-start;
         margin: 1.65%;
     }
@@ -417,12 +408,6 @@ Start our media query
         margin: 2%;
 
     }
-
-    .install .svg {
-        height: 6.5vh;
-        width: 37vh;
-    }
-
     footer .col .logo {
         width: 5.5em;
         height: 5.5em;
@@ -436,10 +421,6 @@ Start our media query
         margin-left: 2%;
     }
 
-}
-
-@media (max-width:600px) {
-  
 }
 
 @media (max-width: 477px) {
@@ -491,11 +472,7 @@ Start our media query
         height: 7.5vh;
         margin: 2%;
     }
-
-    .install .svg {
-        height: 6.5vh;
-        width: 37vh;
-    }
+   
 
     footer .col .logo {
         margin: 20px auto;
